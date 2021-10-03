@@ -1,0 +1,63 @@
+.container1{
+   
+    background-color: white;
+    padding: 1%;
+    margin: 3%;
+
+    width: 100%;
+
+ 
+}
+.sir{
+    height : 55%;
+    text-align: center;
+    
+
+}
+.hed1{
+    margin-right: 8.5cm;
+}
+.par1{
+    margin-right: 8.5cm;
+    padding: 2%;
+   
+}
+.container1 img{
+    height: 5cm;
+    width: 5cm;
+    border-radius: 3mm;
+    float: left;
+    border: yellow; 
+    padding: 2%;
+    margin-left: 3%;
+    
+ 
+}
+div p{
+    text-align: center;
+}
+.container2{
+  
+   margin: auto;
+   height: 400px;
+   width: 600px;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+div h2{
+    color:turquoise;
+    font-weight:bold;
+    text-align: center;
+    padding: 1%;
+}
+.abt p{
+    padding: 0.5%;
+    text-align: center;
+}
+abt{
+    text-align: center
+}
+div h3{
+    text-align: center;
+}
