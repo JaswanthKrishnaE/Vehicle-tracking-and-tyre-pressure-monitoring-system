@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: #7FFFD4;
+	padding: 10px;font-weight: bold;
+
+}
+.headding{
+	background-color: transparent;
+	text-align: center;
+		font-weight: bold;
+}
+.grp{
+	background-color: transparent;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+main{
+	width: 100%;
+	min-height: 73.5vh;
+	font-family: sans-serif;
+}
+
+footer{
+	width: 100%;
+	height: 24px;
+	background-color: black;
+
+	color: white;
+	padding-right: 30px;
+}
+footer a{
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  
