@@ -23,7 +23,7 @@ header{
 
 main{
 	width: 100%;
-	min-height: 76vh;
+	min-height: 73.5vh;
 	font-family: sans-serif;
 	background-image: url(pic.jpg);
 	display: flex;
