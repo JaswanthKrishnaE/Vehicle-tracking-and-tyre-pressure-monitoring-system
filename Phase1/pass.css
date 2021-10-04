@@ -3,64 +3,40 @@ main{
 	justify-content: center;	
 }
 
-.fbox1{
-    align-items: center;
-    justify-content: center;	 
-	width: 80%;
-	height: 380px;
-	border-radius: 8px;
-    background-color:transparent;
+.card{
+	width: 320px;
+	height: 300px;
+	box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
 }
 
-.fbox2{
+.inner-box{
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
-.fbox3{
-    position: absolute;
+.card-front{
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	padding: 15px;
 	background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    background-color: transparent;
-    padding-left: 8%;
-    
-
+	background-color:#7FFFD4;
 }
-.otp,.cngp{
-    border-radius: 8px;
-    width: 50%;
-    height: 80%;
-    background-color: rgb(49, 129, 82);
+.card h2{
+	font-style: oblique;
+	color: black;
+	text-align: center;
 	padding: 15px;
-	background-size: cover;
-
-}
-.otp h2{
-    text-align: center;
-    color: rgb(211, 212, 211);
-    padding: 15px;
-    border-radius: 5px;
-}
-.cngp h2{
-    text-align: center;
-    color: rgb(211, 212, 211);
-    padding: 15px;
-    border-radius: 5px;
+	margin: 8px;
 }
 
 .input-box{
 	width: 100%;
 	height: 32px;
 	border-radius: 20px;
-	border: 1px solid rgba(65, 250, 9, 0.801);
-	margin: 6px;
-	margin-top: 20px;
-	padding: 10px;
+	border: 3px solid rgba(65, 250, 9, 0.801);
+	margin: 5px;
+	padding: 15px;
 	box-sizing: border-box;
 	outline: none;
 	text-align: center;
@@ -69,19 +45,23 @@ main{
 }
 button{
 	width: 100%;
-	height: 32px;
-	border-radius: 20px;
-	border: 1px solid #fff;
-    background-color:rgb(0, 0, 0);
-	margin: 35px 0 10px;
-	padding: 0 15px;
-	box-sizing: border-box;
-	outline: none;
-	font-weight: bold;
-	color: white;
-	cursor: pointer;
 }
-.submit-btn{
-	position: relative;
+form{
+	padding: 15px;
+}
+.btn-outline-secondary{
+	background-color: white;
+}
 
+
+
+.a1{
+	float: right;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+	color: green;
 }
+
+

@@ -1,27 +1,22 @@
+main{
+    height: 72vh;
+}
 .container1{
-   
     background-color: white;
     padding: 1%;
     margin: 3%;
-
+    height: 90%;
     width: 100%;
-
- 
 }
 .sir{
-    height : 55%;
+    height : 40%;
     text-align: center;
-    
-
 }
 .hed1{
-    margin-right: 8.5cm;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-.par1{
-    margin-right: 8.5cm;
-    padding: 2%;
-   
-}
+
 .container1 img{
     height: 5cm;
     width: 5cm;
@@ -30,19 +25,20 @@
     border: yellow; 
     padding: 2%;
     margin-left: 3%;
-    
- 
 }
-div p{
-    text-align: center;
-}
+
 .container2{
-  
-   margin: auto;
-   height: 400px;
-   width: 600px;
+    margin: auto;
+    width: 600px;
     padding: 1%;
     border-radius: 5%;
+}
+
+.par1{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0.5%;
+   
 }
 
 div h2{
@@ -51,8 +47,8 @@ div h2{
     text-align: center;
     padding: 1%;
 }
-.abt p{
-    padding: 0.5%;
+.p1{
+    padding: 0.3%;
     text-align: center;
 }
 abt{
