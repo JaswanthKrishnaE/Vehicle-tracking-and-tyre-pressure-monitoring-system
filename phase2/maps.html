@@ -11,7 +11,8 @@
   // Initialize and add the map
   function initMap() {
     // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.036 };
+    const uluru = { lat: 16.515099, lng: 80.632095 };
+
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 4,
@@ -27,7 +28,7 @@
 </head>
 <body>
 <header>
-	<h2 class="headding"> Emergency alert system with live tracking and tyre pressur of vehicle</h2>
+	<h2 class="headding"> Emergency alert system with live tracking and tyre pressure of vehicle</h2>
 	<h3 class="grp">GROUP 14</h3>
 	</header>
 
@@ -66,12 +67,10 @@
     </div>
   </nav>
 
-<main>
+<main>  <div class="spd"> <p>Speed:  </p>  </div>
   <div id="map"></div>
-
-  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
   <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcnhJhOx2GMKbtulmkmer2SlF0FIQwkiA&callback=initMap&libraries=&v=weekly"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrlUnV-wIvIZJGPXf5N8b-MjUU9ooDhoY&callback=initMap&libraries=&v=weekly"
     async
   ></script>
 </main>
